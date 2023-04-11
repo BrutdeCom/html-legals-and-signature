@@ -20,6 +20,13 @@
     />
     <title>BrutdeCom's Legals mention template</title>
   </head>
+  <style>
+    @media screen and (max-width: 767px) {
+      header h1 {
+        display: none;
+      }
+    }
+  </style>
   <body id="top" style="margin: 0; padding: 0">
     <header
       style="
@@ -49,23 +56,57 @@
       "
     >
       <div style="display: flex; align-items: center">
-        <div style="width: 60px">
-          <img
-            src="https://brutdecom.fr/wp-content/uploads/2020/04/cropped-Favicon-BDC.png"
-            style="max-width: 100%; height: auto"
-          />
-        </div>
-        <h1 style="margin: 0">
-          <a href="#top" style="color: #ffffff; text-decoration: none"
-            >BrutdeCom</a
-          >
-        </h1>
+        <a
+          href="#top"
+          style="
+            color: #ffffff;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+          "
+        >
+          <div style="width: 60px">
+            <img
+              src="https://brutdecom.fr/wp-content/uploads/2020/04/cropped-Favicon-BDC.png"
+              style="max-width: 100%; height: auto"
+            />
+          </div>
+          <h1 style="margin: 0">BrutdeCom</h1>
+        </a>
       </div>
       <nav>
-        <ul style="list-style-type: none">
+        <ul style="list-style-type: none; display: flex; flex-direction: row">
           <li>
-            <a href="#footer" style="color: #ffffff; text-decoration: none"
-              >Footer</a
+            <a
+              href="index.html"
+              style="color: #ffffff; text-decoration: none; margin-right: 10px"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="legals-mentions.html"
+              style="
+                color: #ffffff;
+                margin-right: 10px;
+                text-underline-offset: 20px;
+                text-decoration-line: underline;
+              "
+              >Legals</a
+            >
+          </li>
+          <li>
+            <a
+              href="cookies-policy.html"
+              style="color: #ffffff; text-decoration: none; margin-right: 10px"
+              >Cookies</a
+            >
+          </li>
+          <li>
+            <a
+              href="privacy-policy.html"
+              style="color: #ffffff; text-decoration: none"
+              >Privacy</a
             >
           </li>
         </ul>
