@@ -1,19 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html
+  lang="en"
+  style="
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+  "
+>
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
     <title>BrutdeCom's Legals mention template</title>
   </head>
-  <body>
-    <div
+  <body id="top" style="margin: 0; padding: 0">
+    <header
       style="
-        font-family: 'Poppins', Arial, Helvetica, sans-serif;
-        max-width: 80vw;
-        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        padding-left: 10vw;
+        padding-right: 10vw;
+        height: 8vh;
+        background-image: linear-gradient(
+          125deg,
+          hsl(281deg 49% 12%) 0%,
+          hsl(239deg 31% 20%) 20%,
+          hsl(214deg 45% 23%) 29%,
+          hsl(202deg 47% 26%) 36%,
+          hsl(194deg 38% 30%) 43%,
+          hsl(185deg 25% 36%) 50%,
+          hsl(198deg 39% 40%) 57%,
+          hsl(214deg 33% 49%) 64%,
+          hsl(256deg 27% 57%) 71%,
+          hsl(315deg 33% 56%) 80%,
+          hsl(345deg 59% 62%) 100%
+        );
+        color: #ffffff;
       "
     >
+      <div style="display: flex; align-items: center">
+        <div style="width: 60px">
+          <img
+            src="https://brutdecom.fr/wp-content/uploads/2020/04/cropped-Favicon-BDC.png"
+            style="max-width: 100%; height: auto"
+          />
+        </div>
+        <h1 style="margin: 0">
+          <a href="#top" style="color: #ffffff; text-decoration: none"
+            >BrutdeCom</a
+          >
+        </h1>
+      </div>
+      <nav>
+        <ul style="list-style-type: none">
+          <li>
+            <a href="#footer" style="color: #ffffff; text-decoration: none"
+              >Footer</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div id="mainContent" style="max-width: 80vw; margin: auto">
       <p style="text-align: justify">
         Conformément aux dispositions des articles 6-III et 19 de la Loi n°
         2004-575 du 21 juin 2004 pour la Confiance dans l'économie numérique,
@@ -302,5 +360,44 @@
         à la protection juridique des bases de données.
       </p>
     </div>
+    <footer
+      id="footer"
+      style="
+        background-image: linear-gradient(
+          125deg,
+          hsl(281deg 49% 12%) 0%,
+          hsl(239deg 31% 20%) 20%,
+          hsl(214deg 45% 23%) 29%,
+          hsl(202deg 47% 26%) 36%,
+          hsl(194deg 38% 30%) 43%,
+          hsl(185deg 25% 36%) 50%,
+          hsl(198deg 39% 40%) 57%,
+          hsl(214deg 33% 49%) 64%,
+          hsl(256deg 27% 57%) 71%,
+          hsl(315deg 33% 56%) 80%,
+          hsl(345deg 59% 62%) 100%
+        );
+        color: #ffffff;
+      "
+    >
+      <div style="display: flex; flex-direction: row; justify-content: center">
+        <p style="display: flex; flex-direction: row; align-items: center">
+          Powered with
+          <img
+            src="https://brutdecom.fr/wp-content/uploads/2020/04/cropped-Favicon-BDC.png"
+            width="30px"
+          />
+          by&nbsp;
+          <a
+            href="https://bit.ly/brutdelink"
+            target="blank"
+            rel="noopener noreferrer"
+            style="color: #ffffff"
+          >
+            BrutdeCom</a
+          >
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
